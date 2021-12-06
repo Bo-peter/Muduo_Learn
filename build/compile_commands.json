@@ -1,0 +1,92 @@
+[
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/Acceptor.o -c /home/yixiao/project/muduo/Acceptor.cc",
+  "file": "/home/yixiao/project/muduo/Acceptor.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/Buffer.o -c /home/yixiao/project/muduo/Buffer.cc",
+  "file": "/home/yixiao/project/muduo/Buffer.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/Callbacks.o -c /home/yixiao/project/muduo/Callbacks.cc",
+  "file": "/home/yixiao/project/muduo/Callbacks.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/Channel.o -c /home/yixiao/project/muduo/Channel.cc",
+  "file": "/home/yixiao/project/muduo/Channel.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/CurrentThread.o -c /home/yixiao/project/muduo/CurrentThread.cc",
+  "file": "/home/yixiao/project/muduo/CurrentThread.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/DefaultPoller.o -c /home/yixiao/project/muduo/DefaultPoller.cc",
+  "file": "/home/yixiao/project/muduo/DefaultPoller.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/EPollPoller.o -c /home/yixiao/project/muduo/EPollPoller.cc",
+  "file": "/home/yixiao/project/muduo/EPollPoller.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/EventLoop.o -c /home/yixiao/project/muduo/EventLoop.cc",
+  "file": "/home/yixiao/project/muduo/EventLoop.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/EventLoopThread.o -c /home/yixiao/project/muduo/EventLoopThread.cc",
+  "file": "/home/yixiao/project/muduo/EventLoopThread.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/EventLoopThreadPool.o -c /home/yixiao/project/muduo/EventLoopThreadPool.cc",
+  "file": "/home/yixiao/project/muduo/EventLoopThreadPool.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/InetAddress.o -c /home/yixiao/project/muduo/InetAddress.cc",
+  "file": "/home/yixiao/project/muduo/InetAddress.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/Logger.o -c /home/yixiao/project/muduo/Logger.cc",
+  "file": "/home/yixiao/project/muduo/Logger.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/Poller.o -c /home/yixiao/project/muduo/Poller.cc",
+  "file": "/home/yixiao/project/muduo/Poller.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/Socket.o -c /home/yixiao/project/muduo/Socket.cc",
+  "file": "/home/yixiao/project/muduo/Socket.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/TcpConnection.o -c /home/yixiao/project/muduo/TcpConnection.cc",
+  "file": "/home/yixiao/project/muduo/TcpConnection.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/TcpServer.o -c /home/yixiao/project/muduo/TcpServer.cc",
+  "file": "/home/yixiao/project/muduo/TcpServer.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/Thread.o -c /home/yixiao/project/muduo/Thread.cc",
+  "file": "/home/yixiao/project/muduo/Thread.cc"
+},
+{
+  "directory": "/home/yixiao/project/muduo/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9  -Dmuduo_EXPORTS  -g -fPIC   -o CMakeFiles/muduo.dir/Timestamp.o -c /home/yixiao/project/muduo/Timestamp.cc",
+  "file": "/home/yixiao/project/muduo/Timestamp.cc"
+}
+]
