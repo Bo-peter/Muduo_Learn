@@ -37,10 +37,10 @@ TcpConnection::TcpConnection(EventLoop *loop,
         std::bind(&TcpConnection::handleClose, this));
     channel_->setErrorCallback(
         std::bind(&TcpConnection::handleError, this));
-    LOG_INFO("TcpConnection::ctor[%s] at fd = %d\n",name,sockfd);
+    LOG_INFO("TcpConnection::ctor[%s] at fd = %d\n",name.c_str(),sockfd);
     socket_->setKeepAlive(true);
 }
 TcpConnection::~TcpConnection()
 {
-    LOG_INFO("TcpConnection::ctor[%s] at fd = %d state = %d\n",name_,socket_->fd(),state_.load());
+    LOG_INFO("TcpConnection::ctor[%s] at fd = %d state = %d\n",name_.c_str(),socket_->fd(),state_.load());
 }
