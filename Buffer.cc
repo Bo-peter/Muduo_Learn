@@ -1,6 +1,7 @@
 #include "Buffer.h"
 #include <errno.h>
 #include <sys/uio.h>
+#include <unistd.h>
 
 /**
  * @brief
@@ -29,10 +30,21 @@ ssize_t Buffer::readFd(int fd, int *saveErrno)
     {
         writerIndex_ += n;
     }
-    else    //extrabuf里面存在数据
+    else // extrabuf里面存在数据
     {
         writerIndex_ = buffer_.size();
-        append(extrabuf,n-writable);
+        append(extrabuf, n - writable);
+    }
+    return n;
+}
+
+//通过fd发送数据
+ssize_t Buffer::writeFd(int fd, int *saveErrno)
+{
+    ssize_t n = ::write(fd,peek(),readableBytes());
+    if(n < 0)
+    {
+        *saveErrno = errno;
     }
     return n;
 }
