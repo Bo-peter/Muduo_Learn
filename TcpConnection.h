@@ -35,10 +35,9 @@ public:
     const InetAddress &peerAddress() const { return peerAddr_; }
 
     bool connected() { return state_ == kConnected; }
-
-    void send(const void *message, int len);
+    //发送数据
+    void send(const std::string& buf);
     
-    void send(Buffer *message);
     //关闭连接
     void shutdown();
 
@@ -81,9 +80,9 @@ private:
 
     void sendInLoop(const void *data, size_t len);
     void shutdownInLoop();
-    //void shutdown();
+ 
 
-    void send(const std::string& buf);
+    
     enum StateE
     {
         kDisconnected,
@@ -91,7 +90,7 @@ private:
         kConnected,
         kDisconnecting
     };
-    void setstate(StateE state) { state_ = state; }
+    void setState(StateE state) { state_ = state; }
     EventLoop *loop_; //这里绝对不是baseLoop ,因为TcpConnection都是在subLoop中管理的
     const std::string name_;
     std::atomic_int state_;

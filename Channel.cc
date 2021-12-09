@@ -13,7 +13,9 @@ Channel::Channel(EventLoop *loop, int fd)
 }
 
 Channel::~Channel() {}
-
+//channel 的tie方法什么时候调用过？
+//一个TcpConnection新连接创建的时候
+//TcpConnection ==>Channel
 void Channel::tie(const std::shared_ptr<void> &obj)
 {
     tie_ = obj;
