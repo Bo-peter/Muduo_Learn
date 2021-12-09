@@ -9,4 +9,4 @@ set(CMAKE_CXX_FLAGES "${CMAKE_CXX_FLAGS} -g -std=c++11 -fPIC")
 #定义参与编译的源文件
 aux_source_directory(. SRC_LIST)
 #编译动态库
-add_library(muduo SHARED ${SRC_LIST})
+add_library(minimuduo SHARED ${SRC_LIST})
