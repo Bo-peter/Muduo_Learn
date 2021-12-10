@@ -19,6 +19,8 @@
 #include "noncopyable.h"
 #include "Callbacks.h"
 #include "InetAddress.h"
+#include "TcpConnection.h"
+#include "EventLoop.h"
 
 class Acceptor;
 class EventLoop;

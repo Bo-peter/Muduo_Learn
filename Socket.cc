@@ -33,7 +33,7 @@ int Socket::accept(InetAddress *peeraddr)
     struct sockaddr_in addr;
     int len = sizeof(sockaddr_in);
     bzero(&addr,len);
-    int connfd = ::accept(sockfd_,(sockaddr*)&addr,(socklen_t*)&len);
+    int connfd = ::accept4(sockfd_,(sockaddr*)&addr,(socklen_t*)&len,SOCK_NONBLOCK|SOCK_CLOEXEC);
     if(connfd >= 0)
     {
         peeraddr ->setSockAddr(addr);
